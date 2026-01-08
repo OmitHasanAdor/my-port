@@ -1,6 +1,6 @@
-body{
+/* body{
     background: #FFF8F3;
-}
+} */
 .font{
     font-family: 'Open Sans', sans-serif;
 }
@@ -82,7 +82,83 @@ nav ul li a{
     line-height: 30px;
     margin-bottom: 30px;
 }
-.bannerImg img{
-    width: 700px;
+.bannerImage img{
+    width: 650px;
     vertical-align: middle;
+}
+
+#about{
+    padding-top: 130px;
+}
+.aboutContainer{
+    width: 71%;
+    max-width: 1140px;
+   margin: 0 auto;
+   text-align: center;
+   background-color: #FFF8F3;
+   padding: 131px 157px;
+}
+.sectionHeading {
+    max-width: 827px;
+    text-align: center;
+    
+}
+.sectionHeading h2{
+   font-size: 35px;
+   margin-bottom: 30px;
+}
+.sectionHeading p{
+   font-size: 18px;
+   margin-bottom: 30px;
+   line-height: 30px;
+   color: #757575;
+}
+
+.aboutInfo{
+    display: flex;
+    justify-content: space-around;
+
+}
+.aboutInfo .infoCard p{
+   font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+
+#skills{
+    padding-top: 130px;
+}
+.skillContainer{
+    width: 71%;
+    max-width: 1140;
+    margin: 0 auto;
+}
+.skillHeading{
+     max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+.skillBox {
+    display: flex;
+    gap: 24px;
+}
+.skillBox .skillCard{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #1818182e;
+}
+.skillCard img{
+max-width: 44px;
+margin-bottom: 30px;
+}
+.skillCard h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skillCard p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
 }
